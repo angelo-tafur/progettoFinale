@@ -1,6 +1,7 @@
 
 <?php
 include_once("top.php");
+include ("common.php");
 
 # The student login form submits to here.
 # Upon login, remembers student login name in a PHP session variable.
@@ -51,10 +52,5 @@ function is_password_correct($name, $password) {
         <?php
         return NULL;
     }
-}
-
-function redirectSimple($url) {
-    header("Location: $url");
-    die;
 }?>
 

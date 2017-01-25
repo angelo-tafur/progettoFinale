@@ -36,4 +36,6 @@
 
 
 
-<?php include_once("bottom.html"); ?>
+<?php
+include_once ("modal_account.html");
+include_once("bottom.html"); ?>
