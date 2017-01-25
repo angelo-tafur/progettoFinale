@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - progettoFinale@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="progettoFinale">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="imdb"/>
+    <schema id="3" name="imdb_small"/>
+    <schema id="4" name="information_schema"/>
+    <schema id="5" name="mysql"/>
+    <schema id="6" name="nerdLuv"/>
+    <schema id="7" name="performance_schema"/>
+    <schema id="8" name="phpmyadmin"/>
+    <schema id="9" name="simpsons"/>
+    <schema id="10" name="test"/>
+    <schema id="11" name="world"/>
+    <table id="12" parent="1" name="users"/>
+    <column id="13" parent="12" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(10) unsigned|0</data-type>
+    </column>
+    <column id="14" parent="12" name="username">
+      <data-type>varchar(32)|0</data-type>
+    </column>
+    <column id="15" parent="12" name="email">
+      <data-type>varchar(32)|0</data-type>
+    </column>
+    <column id="16" parent="12" name="password">
+      <data-type>varchar(16)|0</data-type>
+    </column>
+    <key id="17" parent="12" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>

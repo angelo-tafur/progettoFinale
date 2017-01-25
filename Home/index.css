@@ -1,0 +1,18 @@
+
+.navbar-static-top {
+    margin-bottom: 0;
+    background-color: white;
+    min-height: 100px;
+    padding: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    font-size: 14pt;
+}
+
+.footer {
+    min-height: 50px;
+}
+
+.w3c{
+    text-align: right;
+    padding: 10px;
+}

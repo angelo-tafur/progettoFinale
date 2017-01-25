@@ -1,0 +1,47 @@
+body {
+    margin: auto;
+}
+
+/*Style per la navigation bar*/
+.navbar-static-top {
+    margin-bottom: 0;
+    background-color: white;
+    min-height: 100px;
+    font-size: 12pt;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+}
+#myNavbar .navbar-btn {
+    margin: 8px 15px;
+}
+
+/*Style per il footer*/
+.footer {
+    min-height: 50px;
+}
+.w3c{
+    text-align: right;
+    padding: 10px;
+}
+
+/*Style per il login e registrazione*/
+#loginform {
+    padding-top: 25px;
+    background-color: white;
+}
+
+#loginform div {
+    margin-bottom: 25px;
+}
+#createform {
+    padding-top: 25px;
+    background-color: white;
+}
+#createform div {
+    margin-bottom: 25px;
+}
+
+/*Style per il modal logout*/
+#logoutform {
+    padding-top: 25px;
+}
